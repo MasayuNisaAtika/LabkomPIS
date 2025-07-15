@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f9fc;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  header.logo-kanan {
+    width: 50px; /* sesuaikan ukuran */
+    height: auto;
+  }
+  
+  .header img {
+    height: 60px;
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+  
+  .header h1 {
+    display: inline-block;
+    font-size: 24px;
+    margin: 0;
+    vertical-align: middle;
+    color: #333;
+  }
+  
+  .button-group {
+    margin: 20px 0;
+  }
+  
+  .button-group button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #9c24e2;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-group button:hover {
+    background-color: rgb(100, 1, 146);
+  }
+  
+  #calendar {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  /* --- Login Page Styling --- */    
+  body.login-page{
+    font-family: Arial, sans-serif;
+    background-color: #f5f9fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    }
+
+    .container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    width: 80%;
+    height: 400px;
+    text-align: left; 
+    margin-right: 50px; 
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    }
+    .logo img {
+    width: 550px; 
+    margin-right: 80px;
+    }
+
+    .form-group {
+    margin-bottom: 20px;
+    }
+
+    label {
+    display: block;
+    margin-bottom: 5px;
+    }
+
+    input {
+    width: 150%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    select {
+    width: 150%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+
+    button {
+    background-color: #9c24e2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    a {
+    color: #666;
+    text-decoration: none;
+    }
+  /*CHECK-LAB*/
+  
